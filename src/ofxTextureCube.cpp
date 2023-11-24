@@ -1,4 +1,5 @@
 #include "ofxTextureCube.h"
+#include "ArHosekSkyModel.h"
 #include "face.h"
 
 #ifndef M_PI

@@ -1,45 +1,87 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<ClCompile Include="src\ofApp.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\main.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\..\addons\ofxShader\src\ofxShaderSandbox.cpp">
-			<Filter>addons\ofxShader\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\..\addons\ofxShader\src\ofxShader.cpp">
-			<Filter>addons\ofxShader\src</Filter>
-		</ClCompile>
-	</ItemGroup>
-	<ItemGroup>
-		<Filter Include="src">
-			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons">
-			<UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxShader">
-			<UniqueIdentifier>{A64461C2-7659-EB2F-4EE5-B50B}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxShader\src">
-			<UniqueIdentifier>{775AA66F-6CC6-A8F3-80F5-4243}</UniqueIdentifier>
-		</Filter>
-	</ItemGroup>
-	<ItemGroup>
-		<ClInclude Include="src\ofApp.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\..\addons\ofxShader\src\ofxShaderSandbox.h">
-			<Filter>addons\ofxShader\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\..\addons\ofxShader\src\ofxShader.h">
-			<Filter>addons\ofxShader\src</Filter>
-		</ClInclude>
-	</ItemGroup>
-	<ItemGroup>
-		<ResourceCompile Include="icon.rc" />
-	</ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxShader\src\ofxShader.cpp">
+      <Filter>addons\ofxShader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxShader\src\ofxShaderFilter.cpp">
+      <Filter>addons\ofxShader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxShader\src\ofxShaderMaterial.cpp">
+      <Filter>addons\ofxShader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxShader\src\ofxTextureCube.cpp">
+      <Filter>addons\ofxShader\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\addons\ofxShader\src\skylight\ArHosekSkyModel.c">
+      <Filter>addons\ofxShader\src\skylight</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{71834F65-F3A9-211E-73B8-DC85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxShader">
+      <UniqueIdentifier>{A64461C2-7659-EB2F-4EE5-B50B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxShader\src">
+      <UniqueIdentifier>{775AA66F-6CC6-A8F3-80F5-4243}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxShader\src\skylight">
+      <UniqueIdentifier>{2E45DE0E-21AA-1F1B-CCA0-3EF9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxShader\src\face.h">
+      <Filter>addons\ofxShader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxShader\src\ofxShader.h">
+      <Filter>addons\ofxShader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxShader\src\ofxShaderFilter.h">
+      <Filter>addons\ofxShader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxShader\src\ofxShaderMaterial.h">
+      <Filter>addons\ofxShader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxShader\src\ofxTextureCube.h">
+      <Filter>addons\ofxShader\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxShader\src\skylight\ArHosekSkyModel.h">
+      <Filter>addons\ofxShader\src\skylight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxShader\src\skylight\ArHosekSkyModelData_CIEXYZ.h">
+      <Filter>addons\ofxShader\src\skylight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxShader\src\skylight\ArHosekSkyModelData_RGB.h">
+      <Filter>addons\ofxShader\src\skylight</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\addons\ofxShader\src\skylight\ArHosekSkyModelData_Spectral.h">
+      <Filter>addons\ofxShader\src\skylight</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
 </Project>

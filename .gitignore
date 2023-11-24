@@ -30,7 +30,11 @@ xcuserdata
 *.sdf
 *.opensdf
 *.suo
+*.pdb
+*.ilk
+*.aps
 ipch/
+**/.vs
 
 #Eclipse
 .metadata
@@ -69,3 +73,5 @@ nohup.out
 bin/Serial
 bin/libfmodex.so
 
+**.obj
+**/bin
